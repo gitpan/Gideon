@@ -1,4 +1,20 @@
-=head1 Updating objects with Gideon
+package Gideon::Manual::Updating;
+
+#ABSTRACT: Updating objects
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Gideon::Manual::Updating - Updating objects
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 DESCRIPTION
 
 Gideon can update a single object or a group objects depending on how it is
 invoked, B<please make sure you read and understand the documentation> as missues
@@ -38,5 +54,24 @@ Additionally you can use the C<save> method to update a particular object.
 The difference between C<save> and C<update> is that C<update> gives you a fine
 grained control on which fields to update. C<save> sends the entire record as a
 whole to the data store.
+
+=head1 NAME
+
+Updating objects with Gideon
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

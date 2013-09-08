@@ -1,4 +1,7 @@
 package Gideon;
+{
+  $Gideon::VERSION = '0.0.2';
+}
 use Moose;
 use Moose::Exporter;
 use Gideon::Plugin::Cache;
@@ -47,11 +50,37 @@ sub import {
 
 __END__
 
-=pod 
+=pod
 
 =head1 NAME
 
-Gideon
+Gideon - Data mapper for Moose classes an objects
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 DESCRIPTION
+
+Gideon's goal is to build a data access layer for your model and let you focus
+on business logic. It's designed to support multiple backends and to be extended
+to support other features not provided with the distribution.
+
+Gideon is built on top of L<Moose> and depends on the L<Class::MOP> to
+automagically build the data access interface for your objects
+
+=head2 Getting Started
+
+The best place to start is the L<Gideon::Manual>, also by looking at some of the
+examples included in the distribution
+
+=head1 NAME
+
+Gideon = Data mapper for Moose classes an objects
+
+=head1 VERSION
+
+version 0.0.2
 
 =head1 SYNOPSYS
 
@@ -89,20 +118,6 @@ Gideon
 
 B<This software is under heavy development, things may be broken and APIs
 may change in the future until we reach v1.0.0>
-
-=head1 DESCRIPTION
-
-Gideon's goal is to build a data access layer for your model and let you focus
-on business logic. It's designed to support multiple backends and to be extended
-to support other features not provided with the distribution.
-
-Gideon is built on top of L<Moose> and depends on the L<Class::MOP> to
-automagically build the data access interface for your objects
-
-=head2 Getting Started
-
-The best place to start is the L<Gideon::Manual>, also by looking at some of the
-examples included in the distribution
 
 =head1 BENEFITS
 
@@ -194,5 +209,16 @@ you understand the differences when called into different contexts
 =head1 Getting Help
 
 You can get help at C<#gideon> on L<irc://irc.perl.org/#gideon>
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

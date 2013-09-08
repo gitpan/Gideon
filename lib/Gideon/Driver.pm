@@ -1,6 +1,11 @@
 package Gideon::Driver;
+{
+  $Gideon::Driver::VERSION = '0.0.2';
+}
 use Moose::Role;
 use Gideon::Exceptions;
+
+#ABSTRACT: Gideon Driver Interface
 
 requires qw(_find _update _update_object _remove _remove_object _insert_object);
 
@@ -66,3 +71,36 @@ sub save {
 }
 
 1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Gideon::Driver - Gideon Driver Interface
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 NAME
+
+Gideon::Driver - Driver Interface
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut

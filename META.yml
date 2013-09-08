@@ -25,7 +25,8 @@ requires:
   Test::Class::Moose: 0
   Test::Exception: 0
   Test::MockObject: 0
+  Throwable: 0
 resources:
   homepage: https://github.com/bluescreen10/Gideon
   repository: https://github.com/bluescreen10/Gideon.git
-version: 0.0.1
+version: 0.0.2

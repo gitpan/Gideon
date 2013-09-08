@@ -1,32 +1,6 @@
 # NAME
 
-Gideon - Data mapper for Moose classes an objects
-
-# VERSION
-
-version 0.0.2
-
-# DESCRIPTION
-
-Gideon's goal is to build a data access layer for your model and let you focus
-on business logic. It's designed to support multiple backends and to be extended
-to support other features not provided with the distribution.
-
-Gideon is built on top of [Moose](http://search.cpan.org/perldoc?Moose) and depends on the [Class::MOP](http://search.cpan.org/perldoc?Class::MOP) to
-automagically build the data access interface for your objects
-
-## Getting Started
-
-The best place to start is the [Gideon::Manual](http://search.cpan.org/perldoc?Gideon::Manual), also by looking at some of the
-examples included in the distribution
-
-# NAME
-
-Gideon = Data mapper for Moose classes an objects
-
-# VERSION
-
-version 0.0.2
+Gideon
 
 # SYNOPSYS
 
@@ -65,6 +39,20 @@ version 0.0.2
 
 __This software is under heavy development, things may be broken and APIs
 may change in the future until we reach v1.0.0__
+
+# DESCRIPTION
+
+Gideon's goal is to build a data access layer for your model and let you focus
+on business logic. It's designed to support multiple backends and to be extended
+to support other features not provided with the distribution.
+
+Gideon is built on top of [Moose](http://search.cpan.org/perldoc?Moose) and depends on the [Class::MOP](http://search.cpan.org/perldoc?Class::MOP) to
+automagically build the data access interface for your objects
+
+## Getting Started
+
+The best place to start is the [Gideon::Manual](http://search.cpan.org/perldoc?Gideon::Manual), also by looking at some of the
+examples included in the distribution
 
 # BENEFITS
 
@@ -149,14 +137,3 @@ you understand the differences when called into different contexts
 # Getting Help
 
 You can get help at `#gideon` on [irc://irc.perl.org/\#gideon](irc://irc.perl.org/\#gideon)
-
-# AUTHOR
-
-Mariano Wahlmann, Gines Razanov
-
-# COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.

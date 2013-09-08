@@ -31,10 +31,11 @@ my %WriteMakefileArgs = (
     "SQL::Abstract::Limit" => 0,
     "Test::Class::Moose" => 0,
     "Test::Exception" => 0,
-    "Test::MockObject" => 0
+    "Test::MockObject" => 0,
+    "Throwable" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.0.1",
+  "VERSION" => "0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }

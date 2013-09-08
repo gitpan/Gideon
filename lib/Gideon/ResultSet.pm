@@ -1,8 +1,13 @@
 package Gideon::ResultSet;
+{
+  $Gideon::ResultSet::VERSION = '0.0.2';
+}
 use Moose;
 use overload
   '@{}'    => sub { $_[0]->elements },
   fallback => 1;
+
+#ABSTRACT: Gideon result set
 
 has driver => ( is => 'ro', required => 1 );
 has target => ( is => 'ro', required => 1 );
@@ -57,3 +62,49 @@ sub _combine_query {
 }
 
 __PACKAGE__->meta->make_immutable;
+1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Gideon::ResultSet - Gideon result set
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 SYNOPSIS
+
+  my $rs = Users->find( id => { '>' => 10 );
+  $rs = $rs->find( id => { '<' => $limit ) if $limit;
+
+=head1 DESCRIPTION
+
+By default gideon tries to defer calling the database until it’s absolutely
+necessary. For that purpose when C<find> method is invoked in scalar context
+a new L<Gideon::ResultSet> is created. You can also combine several queries
+together by invoking C<find> on a L<Gideon::ResultSet>
+
+=head1 NAME
+
+Gideon::ResultSet - Gideon Result Set Class
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut

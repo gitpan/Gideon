@@ -1,4 +1,20 @@
-=head1 Removing objects with Gideon
+package Gideon::Manual::Removing;
+
+#ABSTRACT: Removing objects
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Gideon::Manual::Removing - Removing objects
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 DESCRIPTION
 
 Gideon can remove one object or a groups of objects depending on how it is
 invoked, B<please make sure you read and understand the documentation> as missues
@@ -23,5 +39,24 @@ instance without affecting other objects
 
     # Remove first person
     People->find_one(id =>1)->remove;
+
+=head1 NAME
+
+Removing objects with Gideon
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

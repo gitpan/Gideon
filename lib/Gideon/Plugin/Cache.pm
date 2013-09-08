@@ -1,7 +1,12 @@
 package Gideon::Plugin::Cache;
+{
+  $Gideon::Plugin::Cache::VERSION = '0.0.2';
+}
 use Moose;
 use JSON;
 use Gideon::Registry;
+
+#ABSTRACT: Cache Plugin
 
 extends 'Gideon::Plugin';
 
@@ -45,3 +50,51 @@ sub _serialize_key {
 
 __PACKAGE__->meta->make_immutable;
 1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Gideon::Plugin::Cache - Cache Plugin
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 SYNOPSIS
+
+  # Cached search
+  my @users = User->find( -cache_for => '10m' );
+  # If a cache is registered by Gideon::Registry, attempts to retrieve the results
+  # from the cache, if it not exists it will cache it for 10 minutes
+
+  # Non-cached search
+  my @users = User->find;
+
+=head1 DESCRIPTION
+
+You can use caching for hot searches whose results don’t change much. This plugin
+uses the cache registered using L<Gideon::Registry> to get/set objects from it.
+
+=head1 NAME
+
+Gideon::Plugin::Cache
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut

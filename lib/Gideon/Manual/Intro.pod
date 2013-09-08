@@ -1,4 +1,20 @@
-=head1 Gideon Intro
+package Gideon::Manual::Intro;
+
+#ABSTRACT: Gideon Manual Intro
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Gideon::Manual::Intro - Gideon Manual Intro
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 DESCRIPTION
 
 Writing code to retrieve objects from data stores, such as databases, is not
 only time consuming, but it is also tedious. Sometimes what it's even worst is
@@ -72,7 +88,7 @@ DBI driver to access the data store.
       primary_key => 1,
       traits => [ 'Gideon::DBI::Column' ]
   );
-  
+
 We added C<serial>, C<primary_key> and C<traits> meta-attributes to the id
 attribute of the class MusicRecord.
 
@@ -84,7 +100,7 @@ C<primary_key> is another hint for Gideon telling that this field is required
 to uniquely identify a particular record from another. This is helpful when
 trying to update or remove a particular object.
 
-Finally C<traits => [ 'Gideon::DBI::Column']> is necessary for each attribute
+Finally C<<traits => [ 'Gideon::DBI::Column']>> is necessary for each attribute
 that is persisted in the database and what's adds the other meta-attributes.
 
   has artist => ( 
@@ -115,7 +131,6 @@ model classes and it's the common interface that all your classes will have
 regardless of the data store. Now all you need to do is operate in with your
 model classes using the API provided.
 
-
   # Create a record
   my $new_record = MusicRecord->new( artist => 'Coldplay' );
   $new_record->save;
@@ -133,5 +148,24 @@ These are really basic use cases and they exhibit the full potential of Gideon,
 please refer to L<Gideon::Manual::Creating>, L<Gideon::Manual::Finding>, 
 L<Gideon::Manual::Updating> and L<Gideon::Manual::Removing> for a complete 
 explanation of those methods.
+
+=head1 NAME
+
+Gideon Intro
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

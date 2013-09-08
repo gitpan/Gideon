@@ -1,4 +1,20 @@
-=head1 Creating objects with Gideon
+package Gideon::Manual::Creating;
+
+#ABSTRACT: Creating objects
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Gideon::Manual::Creating - Creating objects
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 DESCRIPTION
 
 You can easily persist new object in any gideon data store by using the C<save>
 method
@@ -25,7 +41,7 @@ more details.
     catch {
       say 'Failed';
     };
-   
+
 In the case of objects persisted into RDB's and auto increment values, Gideon
 would auto populate the resulting id back into the object
 
@@ -35,4 +51,23 @@ would auto populate the resulting id back into the object
     $new_person->save;
     say $new_person->id; # '1'
 
-=cut     
+=head1 NAME
+
+Creating objects with Gideon
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut

@@ -4,13 +4,9 @@ MANIFEST
 META.yml
 Makefile.PL
 README
+README.md
 README.mkdn
 dist.ini
-examples/Author.pm
-examples/Book.pm
-examples/BookAuthor.pm
-examples/test.pl
-examples/test.sql
 lib/Gideon.pm
 lib/Gideon/Driver.pm
 lib/Gideon/Driver/DBI.pm

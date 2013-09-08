@@ -1,4 +1,20 @@
-=head1 Finding objects with Gideon
+package Gideon::Manual::Finding;
+
+#ABSTRACT: Finding objects
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Gideon::Manual::Finding - Finding objects
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 DESCRIPTION
 
 The Gideon API defines two methods for finding records: C<find> and C<find_one>
 
@@ -70,5 +86,24 @@ will return the first result using data store's natural ordering
 
 The you can use the same C<%opts> as with the C<find> method with one exception:
 C<limit> is not used as it is forced to C<1>
+
+=head1 NAME
+
+Finding objects with Gideon
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

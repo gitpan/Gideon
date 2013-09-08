@@ -1,4 +1,26 @@
+package Gideon::Manual;
+
+#ABSTRACT: Gideon Manual
+
+__END__
+
 =pod
+
+=head1 NAME
+
+Gideon::Manual - Gideon Manual
+
+=head1 VERSION
+
+version 0.0.2
+
+=head1 DESCRIPTION
+
+Gideon is a mapping layer between POMO ( Plain Old Moose Objects ) and your data
+sources such as databases, Non-SQL storage and more. It provides a common
+interface for your persisted objects no matter what the source is so you can
+concentrate on your model ( classes and their relationship ) instead of txeh code
+for accessing the data.
 
 =head1 NAME
 
@@ -6,15 +28,7 @@ Gideon::Manual - What is Gideon, and how do I use it?
 
 =head1 VERSION
 
-version
-
-=head1 WHAT IS GIDEON?
-
-Gideon is a mapping layer between POMO ( Plain Old Moose Objects ) and your data
-sources such as databases, Non-SQL storage and more. It provides a common
-interface for your persisted objects no matter what the source is so you can
-concentrate on your model ( classes and their relationship ) instead of txeh code
-for accessing the data.
+version 0.0.2
 
 =head1 WHY GIDEON?
 
@@ -54,32 +68,43 @@ that Gideon needs.
 
 =head1 TABLE OF CONTENTS
 
-=head2 Gideon::Manual::Intro
+=head2 L<Gideon::Manual::Intro>
 
 Introduces Gideon and basic setup
 
-=head2 Gideon::Manual::Creating
+=head2 L<Gideon::Manual::Creating>
 
 How to create records in your datastore
 
-=head2 Gideon::Manual::Finding
+=head2 L<Gideon::Manual::Finding>
 
 How to search records in your datastore
 
-=head2 Gideon::Manual::Updating
+=head2 L<Gideon::Manual::Updating>
 
 How to update records in your datastore
 
-=head2 Gideon::Manual::Removing
+=head2 L<Gideon::Manual::Removing>
 
 How to remove records in your datastore
 
-=head2 Gideon::Manual::Plugins
+=head2 L<Gideon::Manual::Plugins>
 
 How to extend Gideon
 
-=head Gideon::Manual::Drivers
+=head2 L<Gideon::Manual::Drivers>
 
 Supported Data Stores and how to write a new one
+
+=head1 AUTHOR
+
+Mariano Wahlmann, Gines Razanov
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Mariano Wahlmann, Gines Razanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
