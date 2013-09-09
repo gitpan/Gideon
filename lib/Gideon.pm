@@ -1,6 +1,6 @@
 package Gideon;
 {
-  $Gideon::VERSION = '0.0.2';
+  $Gideon::VERSION = '0.0.3';
 }
 use Moose;
 use Moose::Exporter;
@@ -58,7 +58,7 @@ Gideon - Data mapper for Moose classes an objects
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -80,7 +80,7 @@ Gideon = Data mapper for Moose classes an objects
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSYS
 

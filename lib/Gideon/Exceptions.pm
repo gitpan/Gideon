@@ -3,7 +3,7 @@
 
     package Gideon::Exception;
 {
-  $Gideon::Exception::VERSION = '0.0.2';
+  $Gideon::Exception::VERSION = '0.0.3';
 }
     use Moose;
     with 'Throwable';
@@ -14,7 +14,7 @@
 
     package Gideon::Exception::ObjectNotInStore;
 {
-  $Gideon::Exception::ObjectNotInStore::VERSION = '0.0.2';
+  $Gideon::Exception::ObjectNotInStore::VERSION = '0.0.3';
 }
     use Moose;
     with 'Throwable';
@@ -25,7 +25,7 @@
 
     package Gideon::Exception::NotFound;
 {
-  $Gideon::Exception::NotFound::VERSION = '0.0.2';
+  $Gideon::Exception::NotFound::VERSION = '0.0.3';
 }
     use Moose;
     with 'Throwable';
@@ -36,7 +36,7 @@
 
     package Gideon::Exception::SaveFailure;
 {
-  $Gideon::Exception::SaveFailure::VERSION = '0.0.2';
+  $Gideon::Exception::SaveFailure::VERSION = '0.0.3';
 }
     use Moose;
     with 'Throwable';
@@ -47,7 +47,7 @@
 
     package Gideon::Exception::UpdateFailure;
 {
-  $Gideon::Exception::UpdateFailure::VERSION = '0.0.2';
+  $Gideon::Exception::UpdateFailure::VERSION = '0.0.3';
 }
     use Moose;
     with 'Throwable';
@@ -58,7 +58,7 @@
 
     package Gideon::Exception::RemoveFailure;
 {
-  $Gideon::Exception::RemoveFailure::VERSION = '0.0.2';
+  $Gideon::Exception::RemoveFailure::VERSION = '0.0.3';
 }
     use Moose;
     with 'Throwable';
@@ -69,7 +69,7 @@
 
     package Gideon::Exception::InvalidOperation;
 {
-  $Gideon::Exception::InvalidOperation::VERSION = '0.0.2';
+  $Gideon::Exception::InvalidOperation::VERSION = '0.0.3';
 }
     use Moose;
     with 'Throwable';
@@ -89,7 +89,7 @@ Gideon::Exception - Gideon Exceptions
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -101,7 +101,7 @@ Gideon::Exception
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

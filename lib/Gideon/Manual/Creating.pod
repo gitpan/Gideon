@@ -12,7 +12,7 @@ Gideon::Manual::Creating - Creating objects
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -57,7 +57,7 @@ Creating objects with Gideon
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

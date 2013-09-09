@@ -1,6 +1,6 @@
 package Gideon::Registry;
 {
-  $Gideon::Registry::VERSION = '0.0.2';
+  $Gideon::Registry::VERSION = '0.0.3';
 }
 
 #ABSTRACT: Gideon Store Registry
@@ -45,7 +45,7 @@ Gideon::Registry - Gideon Store Registry
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSIS
 
@@ -67,7 +67,7 @@ Gideon::Registry - Register connection to data stores and cache
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 METHODS
 

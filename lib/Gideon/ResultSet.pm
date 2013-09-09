@@ -1,6 +1,6 @@
 package Gideon::ResultSet;
 {
-  $Gideon::ResultSet::VERSION = '0.0.2';
+  $Gideon::ResultSet::VERSION = '0.0.3';
 }
 use Moose;
 use overload
@@ -74,7 +74,7 @@ Gideon::ResultSet - Gideon result set
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSIS
 
@@ -94,7 +94,7 @@ Gideon::ResultSet - Gideon Result Set Class
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

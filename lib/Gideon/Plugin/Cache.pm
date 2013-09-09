@@ -1,6 +1,6 @@
 package Gideon::Plugin::Cache;
 {
-  $Gideon::Plugin::Cache::VERSION = '0.0.2';
+  $Gideon::Plugin::Cache::VERSION = '0.0.3';
 }
 use Moose;
 use JSON;
@@ -61,7 +61,7 @@ Gideon::Plugin::Cache - Cache Plugin
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSIS
 
@@ -84,7 +84,7 @@ Gideon::Plugin::Cache
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

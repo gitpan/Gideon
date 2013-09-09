@@ -1,6 +1,6 @@
 package Gideon::Meta::Attribute::Trait::DBI::Inflate::DateTime;
 {
-  $Gideon::Meta::Attribute::Trait::DBI::Inflate::DateTime::VERSION = '0.0.2';
+  $Gideon::Meta::Attribute::Trait::DBI::Inflate::DateTime::VERSION = '0.0.3';
 }
 use Moose::Role;
 use DBI;
@@ -66,7 +66,7 @@ Gideon::Meta::Attribute::Trait::DBI::Inflate::DateTime - Auto-inflate DateTime
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSIS
 
@@ -89,7 +89,7 @@ Gideon::Meta::Attribute::Trait::DBI::Inflate::DateTime
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 ALIAS
 

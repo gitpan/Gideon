@@ -1,6 +1,6 @@
 package Gideon::Meta::Class::Trait::Persisted;
 {
-  $Gideon::Meta::Class::Trait::Persisted::VERSION = '0.0.2';
+  $Gideon::Meta::Class::Trait::Persisted::VERSION = '0.0.3';
 }
 use Moose::Role;
 
@@ -20,7 +20,7 @@ Gideon::Meta::Class::Trait::Persisted - Persisted class role
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -33,7 +33,7 @@ Gideon::Meta::Class::Trait::Persisted
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

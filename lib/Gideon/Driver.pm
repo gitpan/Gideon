@@ -1,6 +1,6 @@
 package Gideon::Driver;
 {
-  $Gideon::Driver::VERSION = '0.0.2';
+  $Gideon::Driver::VERSION = '0.0.3';
 }
 use Moose::Role;
 use Gideon::Exceptions;
@@ -82,7 +82,7 @@ Gideon::Driver - Gideon Driver Interface
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 NAME
 
@@ -90,7 +90,7 @@ Gideon::Driver - Driver Interface
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

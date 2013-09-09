@@ -1,6 +1,6 @@
 package Gideon::Plugin;
 {
-  $Gideon::Plugin::VERSION = '0.0.2';
+  $Gideon::Plugin::VERSION = '0.0.3';
 }
 use Moose;
 
@@ -30,7 +30,7 @@ sub save {
 
 sub remove {
     my $self = shift;
-    $self->next->save(@_);
+    $self->next->remove(@_);
 }
 
 __PACKAGE__->meta->make_immutable;
@@ -46,7 +46,7 @@ Gideon::Plugin - Plugin base class
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -58,7 +58,7 @@ Gideon::Plugin - Base class for all Plugins
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

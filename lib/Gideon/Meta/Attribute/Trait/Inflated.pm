@@ -1,6 +1,6 @@
 package Gideon::Meta::Attribute::Trait::Inflated;
 {
-  $Gideon::Meta::Attribute::Trait::Inflated::VERSION = '0.0.2';
+  $Gideon::Meta::Attribute::Trait::Inflated::VERSION = '0.0.3';
 }
 use Moose::Role;
 
@@ -22,7 +22,7 @@ Gideon::Meta::Attribute::Trait::Inflated - Inflated Role
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -34,7 +34,7 @@ Gideon::Meta::Attribute::Trait::Inflated - Inflated Role
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 ALIAS
 

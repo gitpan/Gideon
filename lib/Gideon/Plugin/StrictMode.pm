@@ -1,6 +1,6 @@
 package Gideon::Plugin::StrictMode;
 {
-  $Gideon::Plugin::StrictMode::VERSION = '0.0.2';
+  $Gideon::Plugin::StrictMode::VERSION = '0.0.3';
 }
 use Moose;
 use Gideon::Exceptions;
@@ -87,7 +87,7 @@ Gideon::Plugin::StrictMode - Strict mode Plugin
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSIS
 
@@ -105,7 +105,7 @@ Gideon::Plugin::StrictMode
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

@@ -1,6 +1,6 @@
 package Gideon::Driver::DBI;
 {
-  $Gideon::Driver::DBI::VERSION = '0.0.2';
+  $Gideon::Driver::DBI::VERSION = '0.0.3';
 }
 use Moose;
 use Gideon::Meta::Attribute::Trait::DBI::Column;
@@ -280,7 +280,7 @@ Gideon::Driver::DBI - Gideon DBI driver
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -292,7 +292,7 @@ Gideon::Driver::DBI - DBI driver for Gideon
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

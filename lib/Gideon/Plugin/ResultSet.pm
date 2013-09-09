@@ -1,6 +1,6 @@
 package Gideon::Plugin::ResultSet;
 {
-  $Gideon::Plugin::ResultSet::VERSION = '0.0.2';
+  $Gideon::Plugin::ResultSet::VERSION = '0.0.3';
 }
 use Moose;
 use Gideon::ResultSet;
@@ -38,7 +38,7 @@ Gideon::Plugin::ResultSet - Plugin for creating Gideon::ResulSet
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -51,7 +51,7 @@ Gideon::Plugin::ResultSet
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

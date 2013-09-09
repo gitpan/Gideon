@@ -12,7 +12,7 @@ Gideon::Manual - Gideon Manual
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 
@@ -28,7 +28,7 @@ Gideon::Manual - What is Gideon, and how do I use it?
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 WHY GIDEON?
 
